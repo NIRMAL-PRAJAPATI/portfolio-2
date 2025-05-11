@@ -12,14 +12,7 @@ export function SiteFooter() {
         <p className="text-center text-sm text-gray-400 md:text-left">
           © {new Date().getFullYear()} Nirmal Prajapati. All rights reserved.
         </p>
-        <nav className="flex gap-4 sm:gap-6">
-          <Link href="#" className="text-xs text-gray-400 transition-colors hover:text-white">
-            Privacy
-          </Link>
-          <Link href="#" className="text-xs text-gray-400 transition-colors hover:text-white">
-            Terms
-          </Link>
-        </nav>
+        <p className="text-center text-sm text-gray-400 md:text-left">Ahmedabad, Gujarat, India</p>
       </div>
     </footer>
   )
