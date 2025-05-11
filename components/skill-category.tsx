@@ -22,11 +22,11 @@ export function SkillCategory({ title, icon, skills }: SkillCategoryProps) {
         </CardTitle>
       </CardHeader>
       <CardContent className="p-5">
-  <div className="flex flex-wrap gap-3">
+  <div className="flex flex-wrap gap-2">
     {skills.map((skill) => (
       <div
         key={skill.name}
-        className="flex items-center justify-between text-xs sm:text-sm font-medium text-white rounded-full bg-indigo-600/10 px-3 sm:px-4 py-1 sm:py-2 text-indigo-500"
+        className="flex items-center justify-between text-sm font-medium text-white rounded-full bg-indigo-600/10 px-3 sm:px-4 py-1 sm:py-2 text-indigo-500"
       >{skill.name}</div>
     ))}
   </div>

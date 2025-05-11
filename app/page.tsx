@@ -75,7 +75,9 @@ export default function Home() {
                       ),
                     )}
                     <div className="rounded-full bg-gray-800 px-3 py-1 text-xs text-gray-300 cursor-pointer hover:text-indigo-500 hover:pl-4 hover:border border-indigo-500">
+                      <Link href="/skills">
                           <ArrowRightIcon className="h-4 w-4" />
+                          </Link>
                         </div>
                   </div>
                 </div>
