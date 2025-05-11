@@ -21,7 +21,7 @@ export function SkillCategory({ title, icon, skills }: SkillCategoryProps) {
           {title}
         </CardTitle>
       </CardHeader>
-      <CardContent className="py-5">
+      <CardContent className="p-5">
   <div className="flex flex-wrap gap-3">
     {skills.map((skill) => (
       <div
