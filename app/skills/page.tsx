@@ -12,6 +12,7 @@ export default function SkillsPage() {
     { name: "JAVA" },
     { name: "Basic DSA" },
     { name: "OOPs" },
+    { name: "JavaScript" },
   ]
 
   const frontendSkills = [
@@ -30,11 +31,12 @@ export default function SkillsPage() {
     { name: "Express.js" },
     { name: "REST API" },
     { name: "Twilio" },
-    { name: "Authentication" },
-    { name: "Authorization" }
+    { name: "Socket.IO" },
+    { name: "JWT" },
   ]
 
   const databaseSkills = [
+    { name: "MySQL" },
     { name: "PostgreSQL" },
     { name: "MongoDB" },
     { name: "Sequelize" },
@@ -45,9 +47,9 @@ export default function SkillsPage() {
   const otherSkills = [
     { name: "Github Pages" },
     { name: "Render" },
+    { name: "Netlify" },
     { name: "Varcel" },
-    { name: "Chat GPT" },
-    { name: "V0 by Varcel" },
+    { name: "AI Tools" },
     { name: "MS office" },
     { name: "Git" },
     { name: "GitHub" },

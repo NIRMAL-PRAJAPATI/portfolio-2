@@ -85,7 +85,7 @@ export default function Home() {
                   <h3 className="font-bold text-white">Experience</h3>
                   <div className="grid gap-4">
                     <div className="grid gap-1">
-                      <div className="font-medium text-white">Frontend Developer - Client Project Work</div>
+                      <div className="font-medium text-white">Frontend Developer - Client Project</div>
                       <div className="text-xs text-gray-400">Nov 2024 - Jan 2025</div>
                     </div>
                   </div>
