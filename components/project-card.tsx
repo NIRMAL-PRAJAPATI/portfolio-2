@@ -28,7 +28,7 @@ export function ProjectCard({ title, description, tags, link }: ProjectCardProps
         </div>
         <Link
           href={link}
-          className="inline-flex items-center gap-1 text-sm text-indigo-500 transition-colors hover:text-indigo-400"
+          className="inline-flex items-center pt-2 gap-1 text-sm text-indigo-500 transition-colors hover:text-indigo-400"
         >
           View Project <ArrowUpRight className="h-3 w-3" />
         </Link>

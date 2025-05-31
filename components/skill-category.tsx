@@ -26,7 +26,7 @@ export function SkillCategory({ title, icon, skills }: SkillCategoryProps) {
     {skills.map((skill) => (
       <div
         key={skill.name}
-        className="flex items-center justify-between text-sm font-medium text-white rounded-full bg-indigo-600/10 px-3 sm:px-4 py-1 sm:py-2 text-indigo-500"
+        className="flex items-center justify-between text-sm font-medium text-white rounded-full bg-indigo-600/10 px-3 sm:px-4 py-1 tracking-wide sm:py-2 text-indigo-500"
       >{skill.name}</div>
     ))}
   </div>

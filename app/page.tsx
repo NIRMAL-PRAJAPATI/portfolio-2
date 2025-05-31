@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import { ArrowRight, ArrowRightIcon, Github, Linkedin, LucideSquareDashedBottomCode, Mail, Twitter, WalletCards } from "lucide-react"
+import { ArrowRight, ArrowRightIcon, Github, Linkedin, LucideSquareDashedBottomCode, Mail, Phone, PhoneCall, Twitter, WalletCards } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ProjectCard } from "@/components/project-card"
 import { SiteHeader } from "@/components/site-header"
@@ -95,6 +95,21 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="about" className="w-full py-12 md:py-24 lg:py-32 border-t border-gray-800">
+          <div className="container px-4 md:px-6">
+              <div className="space-y-4 z-10">
+                <div className="inline-block rounded-lg bg-indigo-600/10 px-3 py-1 text-sm text-indigo-500">
+                  Goal
+                </div>
+                <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                  Aspiring Product Manager
+                </h2>
+                <p className="text-gray-400 md:text-md/relaxed lg:text-base/relaxed xl:text-md/relaxed text-justify">As a student, one of my long-term goals is to become a product manager. I'm deeply interested in the intersection of technology, user needs, and business strategy, and I believe that a career in product management will allow me to bring innovative ideas to life while creating real value for users. I'm currently building a strong foundation through my studies, gaining experience in teamwork, problem-solving, and communication, all of which are essential skills for a successful product manager.
+                </p>
+              </div>
+          </div>
+        </section>
+
         <section id="projects" className="w-full py-12 md:py-24 lg:py-32 border-t border-gray-800">
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-6xl space-y-8">
@@ -138,7 +153,7 @@ export default function Home() {
 
         <section id="contact" className="w-full py-12 md:py-24 lg:py-32 border-t border-gray-800">
           <div className="container px-4 md:px-6">
-            <div className="mx-auto max-w-5xl space-y-8">
+            <div className="mx-auto max-w-6xl space-y-8">
               
               <div className="mx-auto grid items-center gap-8">
                 <div className="grid md:grid-cols-2 items-center space-y-6">
@@ -167,6 +182,16 @@ export default function Home() {
                       size="icon"
                       className="border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white"
                     >
+                      <a href="tel:+919726096807">
+                      <Phone className="h-5 w-5" />
+                      <span className="sr-only">Phone</span>
+                      </a>
+                    </Button>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white"
+                    >
                       <a href="https://github.com/NIRMAL-PRAJAPATI">
                       <Github className="h-5 w-5" />
                       <span className="sr-only">GitHub</span>
@@ -180,15 +205,6 @@ export default function Home() {
                       <a href="https://www.linkedin.com/in/nirmal-prajapati-b206ba277/">
                       <Linkedin className="h-5 w-5" />
                       <span className="sr-only">LinkedIn</span></a>
-                    </Button>
-                    <Button
-                      variant="outline"
-                      size="icon"
-                      className="border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white"
-                    >
-                      <a href="https://leetcode.com/u/nirmalprajapati4008/">
-                      <LucideSquareDashedBottomCode className="h-5 w-5" />
-                      <span className="sr-only">LeetCode</span></a>
                     </Button>
                   </div>
                   </div>
