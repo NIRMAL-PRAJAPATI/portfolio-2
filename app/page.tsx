@@ -127,19 +127,19 @@ export default function Home() {
                   title="EZService"
                   description="An e-commerce platform offering a wide range of on-demand services delivered to your doorstep."
                   tags={["React", "TailwindCSS", "Express.js", "Node.js", "PostgreSQL", "Sequelize", "Neon"]}
-                  link="#"
+                  link="https://github.com/NIRMAL-PRAJAPATI/EZService"
                 />
                 <ProjectCard
                   title="Prattle"
                   description="A real-time chat web app with user authentication, live messaging, AI chatbot, and conversation management."
                   tags={["EJS", "tailwindCSS", "Socket.io", "Gemini API", "PostgreSQL", "Neon", "Render"]}
-                  link="#"
+                  link="https://github.com/NIRMAL-PRAJAPATI/chat-webapp-prattle"
                 />
                 <ProjectCard
                   title="Student Things"
                   description="A student portal for project uploads, user login, and interactive features like project likes and browsing."
                   tags={["EJS", "Bootstrap", "Express.js", "Node.js", "MongoDB"]}
-                  link="#"
+                  link="https://github.com/NIRMAL-PRAJAPATI/student-things"
                 />
                 <a className="flex sm:justify-center sm:items-center" href="/projects">
                   <h1 className="flex overflow-hidden border border-gray-800 bg-[#13131A] transition-all hover:border-indigo-500/50 hover:shadow-md hover:shadow-indigo-500/10 px-5 py-3 rounded-lg cursor-pointer">
