@@ -15,8 +15,8 @@ export default function ProjectsPage() {
       description: "An eCommerce platform where users can easily browse and purchase various services, ranging from home repairs to personal shopping, all delivered to their doorstep. With an intuitive interface, secure payments, and real-time tracking, the site offers a seamless experience for booking and enjoying services.",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["React", "Tailwind CSS", "Node.js", "Express.js", "SocketIO", "PostgreSQL", "Sequelize", "Neon"],
-      demoUrl: "#",
-      repoUrl: "#",
+      demoUrl: "https://github.com/NIRMAL-PRAJAPATI/EZService",
+      repoUrl: "https://github.com/NIRMAL-PRAJAPATI/EZService",
       featured: true
     },
     {
@@ -25,8 +25,8 @@ export default function ProjectsPage() {
       description: "Developed a real-time chat web application. Implemented backend functionality using Node.js and Express.js, with real-time communication powered by Socket.IO. Designed features to ensure seamless, instant messaging with a focus on performance and reliability.",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Node.js", "Express.js", "SocketIO", "PostgreSQL"],
-      demoUrl: "#",
-      repoUrl: "#",
+      demoUrl: "https://github.com/NIRMAL-PRAJAPATI/chat-webapp-prattle",
+      repoUrl: "https://github.com/NIRMAL-PRAJAPATI/chat-webapp-prattle",
       featured: true
     }
     ,
