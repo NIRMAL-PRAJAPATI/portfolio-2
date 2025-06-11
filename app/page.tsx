@@ -95,7 +95,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="w-full py-12 md:py-24 lg:py-32 border-t border-gray-800">
+        {/* <section id="about" className="w-full py-12 md:py-24 lg:py-32 border-t border-gray-800">
           <div className="container px-4 md:px-6">
               <div className="space-y-4 z-10">
                 <div className="inline-block rounded-lg bg-indigo-600/10 px-3 py-1 text-sm text-indigo-500">
@@ -108,7 +108,7 @@ export default function Home() {
                 </p>
               </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="projects" className="w-full py-12 md:py-24 lg:py-32 border-t border-gray-800">
           <div className="container px-4 md:px-6">
